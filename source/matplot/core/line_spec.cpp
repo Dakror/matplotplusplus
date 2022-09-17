@@ -71,14 +71,14 @@ namespace matplot {
             case 'v':
                 marker_style_ = marker_style::downward_pointing_triangle;
                 break;
-            case '>':
-                marker_style_ = marker_style::custom;
-                custom_marker_ = u8"▶";
-                break;
-            case '<':
-                marker_style_ = marker_style::custom;
-                custom_marker_ = u8"◀";
-                break;
+            // case '>':
+            //     marker_style_ = marker_style::custom;
+            //     custom_marker_ = u8"▶";
+            //     break;
+            // case '<':
+            //     marker_style_ = marker_style::custom;
+            //     custom_marker_ = u8"◀";
+            //     break;
             case 'p':
                 marker_style_ = marker_style::pentagram;
                 if (expr.substr(expr_pos, 9) == "pentagram") {
@@ -387,14 +387,14 @@ namespace matplot {
         case 'v':
             marker_style_ = marker_style::downward_pointing_triangle;
             break;
-        case '>':
-            marker_style_ = marker_style::custom;
-            custom_marker_ = u8"▶";
-            break;
-        case '<':
-            marker_style_ = marker_style::custom;
-            custom_marker_ = u8"◀";
-            break;
+        // case '>':
+        //     marker_style_ = marker_style::custom;
+        //     custom_marker_ = u8"▶";
+        //     break;
+        // case '<':
+        //     marker_style_ = marker_style::custom;
+        //     custom_marker_ = u8"◀";
+        //     break;
         case 'P':
         case 'p':
             marker_style_ = marker_style::pentagram;
